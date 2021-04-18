@@ -5,8 +5,8 @@ const Descargar=({desc})=> {
 
 const jsPdfGenerator=()=>{
     const doc= new jsPDF('p','pt');
-    // doc.text(20, 20, `${desc}`);
-     doc.text(20, 20, `Texto de prueba de la clase de biología`);
+     doc.text(20, 20, `${desc}`);
+     
     doc.setFont('courier');
     // doc.setFontType('normal');
     doc.save('clase.pdf');

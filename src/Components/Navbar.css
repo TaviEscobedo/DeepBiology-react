@@ -1,0 +1,40 @@
+/* .logout{
+    color: white;
+    font-size: large;
+  
+    margin-right: 1em;
+}
+.logout:hover{
+    text-decoration: none;
+    text-decoration-color: none;
+    font-weight: bold;
+    color: white;
+} */
+/* .user{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 1em;
+} */
+.menu{
+    left:-100% ;
+}
+.cabecera{
+    background:#c70039;
+   padding-right:"40px" 
+}
+/* .active{
+    background: #383838;
+} */
+
+.navLLink{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+    padding: 8px 0;
+} 
+.navLLink:hover{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+} 

@@ -1,0 +1,35 @@
+.register{
+    margin-top: 2em;
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    max-width: 600px;
+  }
+  form{
+    padding: 16px 8px;
+    color:grey;
+  }
+  ::-webkit-input-placeholder{ 
+  color:rgb(195, 194, 194) !important; 
+ ;
+  }
+  ::-moz-input-placeholder{ 
+    color:rgb(195, 194, 194) !important;
+    
+    }
+  form .title{
+    font-size: 1.7em;
+    color: rgb(41, 41, 41);
+    margin-bottom: 1em;
+  }
+  form label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #838383;
+    /* color: #282c34; */
+  }
+  button{
+      margin-top: 2em;
+      background: #C70039;
+      color: white;
+     
+  }

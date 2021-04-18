@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import CardClases from './CardClases'
 import Loader from './Loader'
-
+import Navbar from './Navbar';
 
 const  Home=()=> {
 
@@ -10,7 +10,7 @@ const  Home=()=> {
     const [isLoading, setIsLoading] = useState(true)
 
     const cargaClases= async()=>{
-        const res= await fetch("http://localhost:3000/clases");
+        const res= await fetch("http://localhost:3050/clases");
         const data=await res.json();
         setClases(data);
         setIsLoading(false);
@@ -27,8 +27,8 @@ const  Home=()=> {
     },[])
 
     return (
-      
-        
+        <>
+        <Navbar/>
         <div className="container pt-4">
            
             <div className="input-group  mb-4 float-right">
@@ -56,7 +56,7 @@ const  Home=()=> {
             </div>
            
         </div>
-      
+      </>
     )
 }
 export default  Home;

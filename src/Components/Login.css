@@ -1,0 +1,18 @@
+button{
+    margin-bottom: 1em;
+  
+}
+.link_registro{
+    text-align: center;
+}
+.link_registro strong{
+    color: #00BA4A;
+    margin-left: 8px;
+    
+}
+.login{
+    margin-top: 2.5em;
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    max-width: 600px;
+}

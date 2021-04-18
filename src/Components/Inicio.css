@@ -1,0 +1,27 @@
+
+
+.inicio{
+     height: 85vh; 
+     width:100%;  
+    /* max-width: 984px; */
+    background-repeat: no-repeat;
+    background: url(../Assets/portada.png) no-repeat right center ;
+    background-size: 100% 70%;
+}
+
+.texto_entrada{
+    max-width: 400px;
+    border-radius: 8px;
+    background: rgb(250, 250, 250);
+    padding: 1em;
+}
+
+.texto_entrada>h1{
+    color: #383838;
+    font-weight: bold;
+    /* z-index: 1000px; */
+  
+}
+.caja{
+    height: auto;
+}
