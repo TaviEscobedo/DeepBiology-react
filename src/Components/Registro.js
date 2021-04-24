@@ -55,13 +55,13 @@ useEffect(() => {
          
          <div className="row">
 
-        <div className="col-md-6 mx-auto p-3">
+        <div className="col-md-4 mx-auto ">
            {
                 (msg)&&  <Alert msg={msg}/>
                 
             } 
             
-            <div className="container register"> 
+            <div className="card register"> 
 
            
             <form onSubmit={enviarRegistro}>

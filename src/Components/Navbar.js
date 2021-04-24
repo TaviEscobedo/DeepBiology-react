@@ -6,8 +6,18 @@ import './Navbar.css'
 
 export default function Navbar() {
 
-
+  // const [favs, setFavs] = useState([])
+  // // let { slug } = useParams();
+  // const getFavoritos = async ()=>{
+  //     let id_user=localStorage.getItem('id')
+  //     const res = await fetch(`http://localhost:3050/favoritos?id_user=${id_user}`)
+  //     const data= await res.json();
+  //     // console.log("favoritos por usuario",data);
+  //     setFavs(data)
+  //     // console.log("estado favs",favs);
+  // }
   
+ 
  
     return (
        
@@ -54,7 +64,7 @@ export default function Navbar() {
          
           <Link to="/favoritos" className="dropdown-item" href="#" >
           <i className="far fa-bookmark mr-2"></i>
-            Mis favoritos</Link>
+            Mis favoritos </Link>
           <div className="dropdown-divider"></div>
           <Link to="/login" className="dropdown-item"  onClick={()=>Logout()}>Cerrar sesión</Link>
         </div>

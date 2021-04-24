@@ -92,12 +92,13 @@ const Login = () => {
          
          <div className="row">
 
-        <div className="col-md-6 mx-auto ">
+        <div className="col-md-4 mx-auto ">
             {
                  (msg)&& <Alert msg={msg}/>
                 
             } 
-            <div className="container login"> 
+            {/* <div className="container login">  */}
+            <div className="card login"> 
             <form 
              onSubmit={enviarLogin} 
             >
@@ -111,7 +112,8 @@ const Login = () => {
                 name="email"
                 onChange={handleChange}
                 value={email}
-                placeholder="Ingresa tu usuario"/>
+                autoFocus
+                placeholder="Ingresa tu correo"/>
                 </div>
                 
                 <div className="form-group col">

@@ -30,7 +30,7 @@ const Favoritos = () => {
 
     useEffect(() => {
         getFavoritos();
-        
+        console.log(favs.length);
     }, [])
 
     return (

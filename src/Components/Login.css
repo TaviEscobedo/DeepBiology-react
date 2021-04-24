@@ -10,9 +10,13 @@ button{
     margin-left: 8px;
     
 }
+form label{
+    font-size: smaller;
+}
 .login{
-    margin-top: 2.5em;
-    border:1px solid rgb(214, 214, 214);
-    border-radius: 5px;
-    max-width: 600px;
+    margin-top: 3.5em;
+    /* border:1px solid rgb(214, 214, 214);
+    border-radius: 5px;*/
+    /* max-width: 600px;  */
+    /* min-width: 400px; */
 }
